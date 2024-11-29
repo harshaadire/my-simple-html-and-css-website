@@ -1,0 +1,406 @@
+body{
+    margin:0;
+    padding: 0;
+   
+      
+    
+     
+  }
+@media (max-width:767px) {
+    .pic{
+        background-color: rgb(32, 32, 32);
+        height: 860px ;
+        width: 100vw;
+    
+        
+    }
+    h1{
+        font-family: "Style Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        font-size: 90px;
+        position: absolute;
+        top: 38%;
+        left: 20%;
+      
+
+      }
+      .text h2{
+        font-family: "Style Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-weight: 200px;
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        top: 60%;
+        left: 39%;
+      }
+    .moon{
+        position: absolute;
+        top: 15%;
+        left: 6%;
+        height: 200px;
+        width: 200px;
+
+      }
+      .profile{
+        border-radius: 50%;
+        position: absolute;
+        margin-top: 100px;
+        left: 40%;
+        top: 120%;
+      }
+      .mountain{
+        position: absolute;
+        left:5%;
+        top: 78%;
+        height: 330px !important;
+        width: 420px;
+      }
+      .cloud{
+        position: absolute;
+        left: 60%;
+        top: 8%;
+
+      }
+      .mid{
+        color: rgb(10, 10, 10);
+        font-family: "Crimson Pro", serif;
+        font-optical-sizing: auto;
+        color: rgb(18, 131, 207);
+        font-style: normal;
+        font-size: 38px;
+        position: absolute;
+        top: 155%; 
+        left: 47%;
+      }
+      .mytext p{
+        font-size: 20px;
+        font-weight: 40;
+        position: absolute;
+        top: 165%; 
+        left: 18%;
+      }
+      .skills{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
+        width: 60%;
+        height: auto;
+        margin: 50px auto;
+        position: absolute;
+        top: 200%;
+        left: 18%;
+        gap: 20px;
+      }
+      .skill-text{
+        color: rgb(159, 231, 231);
+        font-weight: 100;
+        text-align: center;
+        font-size: 30px;
+      }
+      .book,.travel{
+        display: flex;
+        justify-content: center;
+
+      }
+      .book-text{
+        grid-row: 1;
+        grid-column: 2;
+
+      }
+
+      .book-text,.travel-text{
+        order: 1;
+      }
+      .book-text p{
+        font-size: 19px;
+      }
+      .travel-text p{
+        font-size: 19px;
+      }
+      .h{
+        font-weight: 250;
+        color: rgb(91, 146, 146);
+        font-size: 40px;
+        position: absolute;
+        top: 180%;
+        left: 43%;
+      }
+      .c1{
+        font-size: 40px;
+        font-weight: 450;
+        color: rgb(79, 25, 243);
+        position: absolute;
+        top: 290%;
+        left: 29%;
+        font-family: "Crimson Pro", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+      }
+      .c2{
+        color: rgb(79, 25, 243);
+        font-size: 22px;
+        font-weight: 600;
+        position: absolute;
+        top: 300%;
+        left: 19%;
+        font-family: "Crimson Pro", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+      }
+      .c3{
+        
+        font-size: 22px;
+        font-weight: 600;
+        position: absolute;
+        top: 310%;
+        left: 19%;
+        font-family: "Crimson Pro", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+      }
+      .center{
+        position: absolute;
+        left: 10%;
+      }
+      .last{
+        background-color:rgb(56, 200, 205) ;
+        height: 200px;
+        width: 100vw;
+        position: absolute;
+        top: 330%;
+
+      }
+      .link{
+        font-size: 20px;
+        font-weight: 200;
+        color:rgb(211, 235, 237);
+        text-decoration: none;
+        position: absolute;
+        top: 30%;
+        left: 22%;
+      }
+      .email{
+        font-size: 20px;
+        font-weight: 200;
+        color:rgb(211, 235, 237);
+        text-decoration: none;
+        position: absolute;
+        top: 30%;
+        left: 53%;
+      }
+      .github{
+        font-size: 20px;
+        font-weight: 200;
+        color:rgb(211, 235, 237);
+        text-decoration: none;
+        position: absolute;
+        top: 30%;
+        left: 78%;
+      }
+      .foot{
+        position: absolute;
+        top: 60%;
+        left: 25%;
+        color: white;
+      }
+}
+@media (min-width:768px){
+    .pic{
+        background-color: rgb(32, 32, 32);
+        height: 800px ;
+        width: 100%;
+    
+    }
+    .moon{
+        position: absolute;
+        left: 20%;
+
+      }
+      h1{
+        font-family: "Style Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        font-size: 90px;
+        position: absolute;
+        top: 30%;
+        left: 38%;
+      
+
+      }
+      .text h2{
+        font-family: "Style Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-weight: 200px;
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 47%;
+      }
+      .cloud{
+        position: absolute;
+        left: 60%;
+        top: 8%;
+      }
+      .mountain{
+        position: absolute;
+        left: 30%;
+        top: 60%;
+        
+      }
+      .profile{
+        border-radius: 50%;
+        position: absolute;
+        margin-top: 100px;
+        left: 45%;
+      }
+      .mid{
+        color: rgb(10, 10, 10);
+        font-family: "Crimson Pro", serif;
+        font-optical-sizing: auto;
+        color: rgb(18, 131, 207);
+        font-style: normal;
+        font-size: 38px;
+        position: absolute;
+        top: 145%; 
+        left: 47%;
+      }
+      .mytext p{
+        font-size: 20px;
+        font-weight: 40;
+        position: absolute;
+        top: 155%; 
+        left: 33%;
+      }
+      .skills{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
+        width: 60%;
+        height: auto;
+        margin: 50px auto;
+        position: absolute;
+        top: 200%;
+        left: 25%;
+        gap: 20px;
+      }
+      .skill-text{
+        color: rgb(159, 231, 231);
+        font-weight: 100;
+        text-align: center;
+        font-size: 30px;
+      }
+      .book,.travel{
+        display: flex;
+        justify-content: center;
+
+      }
+      .book-text{
+        grid-row: 1;
+        grid-column: 2;
+
+      }
+
+      .book-text,.travel-text{
+        order: 1;
+      }
+      .book-text p{
+        font-size: 19px;
+      }
+      .travel-text p{
+        font-size: 19px;
+      }
+      .h{
+        font-weight: 250;
+        color: rgb(91, 146, 146);
+        font-size: 40px;
+        position: absolute;
+        top: 175%;
+        left: 46%;
+      }
+      .c1{
+        font-size: 40px;
+        font-weight: 450;
+        color: rgb(79, 25, 243);
+        position: absolute;
+        top: 280%;
+        left: 45%;
+        font-family: "Crimson Pro", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+      }
+      .c2{
+        color: rgb(79, 25, 243);
+        font-size: 22px;
+        font-weight: 600;
+        position: absolute;
+        top: 290%;
+        left: 40%;
+        font-family: "Crimson Pro", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+      }
+      .c3{
+        
+        font-size: 22px;
+        font-weight: 600;
+        position: absolute;
+        top: 298%;
+        left: 36%;
+        font-family: "Crimson Pro", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+      }
+      .center{
+        position: absolute;
+        left: 10%;
+      }
+      .last{
+        background-color:rgb(56, 200, 205) ;
+        height: 200px;
+        width: 100%;
+        position: absolute;
+        top: 310%;
+        margin-top: 80px;
+
+      }
+      .link{
+        font-size: 20px;
+        font-weight: 200;
+        color:rgb(211, 235, 237);
+        text-decoration: none;
+        position: absolute;
+        top: 30%;
+        left: 40%;
+      }
+      .email{
+        font-size: 20px;
+        font-weight: 200;
+        color:rgb(211, 235, 237);
+        text-decoration: none;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+      }
+      .github{
+        font-size: 20px;
+        font-weight: 200;
+        color:rgb(211, 235, 237);
+        text-decoration: none;
+        position: absolute;
+        top: 30%;
+        left: 60%;
+      }
+      .foot{
+        position: absolute;
+        top: 60%;
+        left: 43%;
+        color: white;
+      }
+    }
